@@ -3,7 +3,7 @@ body {
     margin: 0px
 }
 
-div {
+.bgstrip {
     background-color: rgb(126, 155, 239);
     align-self: center;
     text-align: center;
@@ -20,7 +20,9 @@ h1 {
     border:2px dotted red
 }
 
-h3, ul {
-    align-content: center;
-    border: 2px dotted red
+ ul {
+    width: fit-content;
+    margin: auto;
+    text-align: left;
+    border: 2px dotted rgb(7, 1, 1)
 }
